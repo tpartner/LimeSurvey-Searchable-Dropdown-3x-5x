@@ -1,0 +1,14 @@
+
+
+/***** 
+    Styles for the Multiple-Choice-Dropdown question theme
+    Copyright (C) 2019 - Tony Partner (http://partnersurveys.com)
+    Licensed MIT, GPL
+    Version - 1.0
+    Create date - 23/10/2019
+*****/
+
+.list-dropdown .select2-container {
+    min-width: 260px;
+}
+ 

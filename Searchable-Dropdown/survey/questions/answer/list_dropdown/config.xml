@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <metadata>
+        <name>Searchable-Dropdown</name>
+        <type>question_theme</type>
+        <title>Searchable Dropdown</title>
+        <creationDate>23/10/2019</creationDate>
+        <author>Tony Partner</author>
+        <authorEmail>tpartner@partnersurveys.com</authorEmail>
+        <authorUrl>http://partnersurveys.com</authorUrl>
+        <license>GNU General Public License version 2 or later</license>
+        <version>1.0</version>
+        <apiVersion>1</apiVersion>
+        <description>Replace a single-choice drop-down with a searchable drop-down. Uses the select2 platform - https://select2.org/.</description>		
+        <questionType>!</questionType>
+        <group>Single choice questions</group>
+        <answerscales>0</answerscales>
+        <hasdefaultvalues>1</hasdefaultvalues>
+        <assessable>1</assessable>
+        <class>list-dropdown</class>
+    </metadata>
+
+    <compatibility>
+        <version>4.0</version>
+    </compatibility>
+
+    <!--
+        Here the list of the css/js files to load.
+        Any file here will be loaded via the asset manager (when in config.php debug = 0)
+    -->
+    <files>
+        <css>
+            <filename>scripts/select2/select2.min.css</filename>
+            <filename>css/ssd.css</filename>
+        </css>
+        <js>
+            <filename>scripts/select2/select2.min.js</filename>
+            <filename>scripts/ssd.js</filename>
+        </js>
+		<preview>
+			<filename>images/ssd_1.png</filename>
+		</preview>
+    </files>
+
+    <custom_attributes>
+        <!-- New attributes -->
+		<!--
+		<attribute>
+            <name>autocomplete_items</name>
+            <category>Display</category>
+            <sortorder>103</sortorder>
+            <inputtype>textarea</inputtype>
+			<i18n>1</i18n>
+            <help>A comma-separated list of items for the autocomplete plugin</help>
+            <caption>Autocomplete Items</caption>
+			<readonly_when_active>false</readonly_when_active>
+			<expression>1</expression>
+        </attribute>
+		-->
+    </custom_attributes>
+
+    <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
+    <engine>
+        <load_core_css>true</load_core_css>
+        <load_core_js>true</load_core_js>
+        <show_as_template>true</show_as_template>
+        <show_as_question_type>true</show_as_question_type>
+    </engine>
+</config>
