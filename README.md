@@ -1,7 +1,7 @@
 # List Dropdown With a Searchable Select for LimeSurvey
 **A custom question theme that uses the [Select2 component](https://select2.org/) to insert a searchable select element to choose an option of a LimeSurvey list-dropdown type question.**
 
-![Image Searchable-Dropdown](/Searchable-Dropdown/survey/questions/answer/list-dropdown/assets/images/ssd_1.png)
+![Image Searchable-Dropdown](/LimeSurvey-Searchable-Dropdown/Searchable-Dropdown/survey/questions/answer/list_dropdown/assets/images/ssd_1.png)
 
 **Implementation:**
 
@@ -10,7 +10,7 @@
 2) Create a list-dropdown question, click Save.
 
 3) Set the question setting "Question theme" to "Searchable-Dropdown", click Save.  
-![Image Searchable-Dropdown](/Searchable-Dropdown/survey/questions/answer/list-dropdown/assets/images/ssd_2.png)
+![Image Searchable-Dropdown](/LimeSurvey-Searchable-Dropdown/Searchable-Dropdown/survey/questions/answer/list_dropdown/assets/images/ssd_2.png)
 
 4) Create answers as required.
 
