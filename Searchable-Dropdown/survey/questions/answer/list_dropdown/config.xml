@@ -44,20 +44,35 @@
     </files>
 
     <custom_attributes>
-        <!-- New attributes -->
-		<!--
+        <!-- Hide some core attributes -->
 		<attribute>
-            <name>autocomplete_items</name>
+            <name>category_separator</name>
             <category>Display</category>
-            <sortorder>103</sortorder>
-            <inputtype>textarea</inputtype>
-			<i18n>1</i18n>
-            <help>A comma-separated list of items for the autocomplete plugin</help>
-            <caption>Autocomplete Items</caption>
-			<readonly_when_active>false</readonly_when_active>
-			<expression>1</expression>
+            <inputtype/>
         </attribute>
-		-->
+        <attribute>
+            <name>other_replace_text</name>
+            <category>Display</category>
+            <inputtype/>
+            <i18n>1</i18n>
+        </attribute>
+        <attribute>
+            <name>dropdown_size</name>
+            <category>Display</category>
+            <inputtype/>
+        </attribute>
+        <attribute>
+            <name>dropdown_prefix</name>
+            <category>Display</category>
+            <inputtype/>
+        </attribute>
+		
+        <attribute>
+            <name>other_comment_mandatory</name>
+            <category>Logic</category>
+            <inputtype/>
+            <default>0</default>
+        </attribute>
     </custom_attributes>
 
     <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
