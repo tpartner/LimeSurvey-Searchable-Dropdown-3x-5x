@@ -45,7 +45,7 @@
 		</preview>
     </files>
 
-    <custom_attributes>
+    <attributes>
         <!-- Hide some core attributes -->
 		<attribute>
             <name>category_separator</name>
@@ -75,7 +75,7 @@
             <inputtype/>
             <default>0</default>
         </attribute>
-    </custom_attributes>
+    </attributes>
 
     <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
     <engine>
