@@ -6,12 +6,14 @@
         <type>question_theme</type>
         <title>Searchable Dropdown</title>
         <creationDate>23/10/2019</creationDate>
+        <last_update>21/02/2021</last_update>
         <author>Tony Partner</author>
-        <authorEmail>tpartner@partnersurveys.com</authorEmail>
         <authorUrl>http://partnersurveys.com</authorUrl>
+        <supportUrl>None</supportUrl>
         <license>GNU General Public License version 2 or later</license>
         <version>1.0</version>
         <apiVersion>1</apiVersion>
+        <lastSecurityUpdate>1.0</lastSecurityUpdate>
         <description>Replace a single-choice drop-down with a searchable drop-down. Uses the select2 platform - https://select2.org/.</description>		
         <questionType>!</questionType>
         <group>Single choice questions</group>
@@ -22,7 +24,9 @@
     </metadata>
 
     <compatibility>
+        <version>3.0</version>
         <version>4.0</version>
+        <version>5.0</version>
     </compatibility>
 
     <!--
