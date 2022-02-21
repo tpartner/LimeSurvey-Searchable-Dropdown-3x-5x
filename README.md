@@ -10,9 +10,11 @@ Compatible with LimeSurvey versions 3.x - 5.x.
 1) - **Manual installation (3.x - 5.x)** - Extract the download and upload the *Searchable-Dropdown* folder to */pathToLimeSurvey/upload/themes/question/*.
     - **Theme manager (4.x - 5.x)** - Extract the download, compress (zip) the *Searchable-Dropdown* folder and import via the theme manager.
 
-2) Create a list-dropdown question, click Save.
+2) - **3.x - 4.x** - Create a list-dropdown question, click Save.
+    - **5.x** - Create a "Searchable Dropdown" question, click Save.
+    ![Image Searchable-Dropdown](/Searchable-Dropdown/survey/questions/answer/list_dropdown/assets/images/ssd_3.png)
 
-3) Set the question setting "Question theme" to "Searchable-Dropdown", click Save.  
+3) **3.x - 4.x only** - Set the question setting "Question theme" to "Searchable-Dropdown", click Save.  
 ![Image Searchable-Dropdown](/Searchable-Dropdown/survey/questions/answer/list_dropdown/assets/images/ssd_2.png)
 
 4) Create answers as required.
