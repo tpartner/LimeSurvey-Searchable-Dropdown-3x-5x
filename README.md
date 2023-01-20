@@ -1,7 +1,7 @@
-# List Dropdown With a Searchable Select for LimeSurvey
+# List Dropdown With a Searchable Select for LimeSurvey 3.x and 5.x
 **A custom question theme that uses the [Select2 component](https://select2.org/) to insert a searchable select element to choose an option of a LimeSurvey list-dropdown type question.**
 
-Compatible with LimeSurvey versions 3.x - 5.x.
+Compatible with LimeSurvey versions 3.x and 5.x.
 
 ![Image Searchable-Dropdown](/Searchable-Dropdown/survey/questions/answer/list_dropdown/assets/images/ssd_1.png)
 
